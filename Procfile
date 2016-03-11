@@ -1,1 +1,1 @@
-web: gunicorn landing:app
+web: gunicorn mysticlight:app

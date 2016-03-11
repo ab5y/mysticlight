@@ -2,8 +2,8 @@ from flask import Flask, request, session, g, redirect, url_for, \
 				abort, render_template, flash
 
 # Configuation
-USERNAME = 'admin'
-PASSWORD = 'default'
+# USERNAME = 'admin'
+# PASSWORD = 'default'
 # DEBUG = True
 
 app = Flask(__name__)

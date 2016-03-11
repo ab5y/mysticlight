@@ -1,1 +1,1 @@
-web: gunicorn mysticlight:app
+web: gunicorn bagga:app

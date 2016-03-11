@@ -13,7 +13,8 @@ app.config.from_object(__name__)
 @app.route('/')
 def hello():
 	print 'Reaches here'
-	return 'Hello world' # render_template('show_landing.html')
+	# return 'Hello world' 
+	return render_template('template.html')
 
 if __name__ == '__main__':
 	app.run()

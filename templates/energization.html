@@ -1,0 +1,36 @@
+{% extends "template.html" %}
+{% block body %}
+<div class="demo-blog__posts mdl-grid">
+	<!-- Image card -->
+	<style>
+		.demo-card-image.mdl-card {
+			width: 100%;
+			background: url('{{ url_for('static', filename='images/on-the-fence-preview.jpg') }}') center / cover;
+		}
+		.demo-card-image > .mdl-card__title {
+			color: #fff;
+		}
+		.demo-card-image > .mdl-card__actions {
+			height: 52px;
+			padding: 16px;
+			background: rgba(0, 0, 0, 0.2);
+		}
+	</style>
+
+	<div class="demo-card-image mdl-card mdl-shadow--2dp">
+	</div>
+	<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+		<div class="mdl-card__title">
+			<h2 class="mdl-card__title-text" style="margin: auto auto;">Paramhansa Yogananda's Energization Exercises</h2>
+		</div>
+		<div class="mdl-color-text--grey-700 page">
+			<p>
+				"The greater the will, the greater the flow of energy."
+			</p>
+			<p>
+				Paramhasna Yogananda's Energization Exercises are his unique contribution to the science of yoga. They are a systematic way to increase the flow of life force, strengthen and heal the body, clear and focus the mind, and prepare you for meditation. Their highest purpose is to help experience the your body as energy which makes it a warm up as well as a pranayama.
+			</p>
+		</div>
+	</div>
+</div>
+{% endblock %}

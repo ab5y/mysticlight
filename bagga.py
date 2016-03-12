@@ -23,5 +23,13 @@ def slowyoga():
 def anandayoga():
 	return render_template('anandayoga.html', location='What is Ananda Yoga?')
 
+@app.route('/energization')
+def energization():
+	return render_template('energization.html', location="Paramhansa Yogananda's Energization Exercises")
+
+@app.route('/about')
+def about():
+	return render_template('about.html', location="About")
+
 if __name__ == '__main__':
 	app.run()

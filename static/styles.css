@@ -15,7 +15,7 @@ body::before {
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/bg_1024.jpg');
+    background-image: url('images/kriti_bg_1024.jpg');
   }
 }
 @media (min-width: 513px)  and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -23,7 +23,7 @@ body::before {
        (min-width: 1025px) and (max-width: 2048px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/bg_2048.jpg');
+    background-image: url('images/kriti_bg_2048.jpg');
   }
 }
 @media (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -31,7 +31,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/bg_2880.jpg');
+    background-image: url('images/kriti_bg_2880.jpg');
   }
 }
 body .demo-blog {
@@ -185,10 +185,13 @@ body .demo-blog {
 }
 
 
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.vertical-pose-pic {
+.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.vertical-pose-pic-preview {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
+}
+.demo-blog .vertical-pose-pic-preview .mdl-card__media {
+  background-image: url('images/vertical-pose-preview.jpg');
 }
 .demo-blog .vertical-pose-pic .mdl-card__media {
   background-image: url('images/vertical-pose.jpg');
@@ -243,6 +246,9 @@ body .demo-blog {
 .demo-blog .under-the-arch-preview .mdl-card__media {
   background-image: url('images/under-the-arch-preview.jpg');
 }
+.demo-blog .on-the-fence .mdl-card__media {
+  background-image: url('images/on-the-fence.jpg');
+}
 .demo-blog .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }
@@ -287,6 +293,10 @@ body .demo-blog {
 }
 .demo-blog .mdl-card h3 a {
   text-decoration: none;
+}
+li a {
+  text-decoration: none; 
+  color: black;
 }
 .demo-blog .mdl-card h3.quote:before, .demo-blog .mdl-card h3.quote:after {
   display: block;

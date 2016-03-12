@@ -183,6 +183,17 @@ body .demo-blog {
 .demo-blog .coffee-pic .mdl-card__media {
   background-image: url('images/coffee.jpg');
 }
+
+
+.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.vertical-pose-pic {
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.demo-blog .vertical-pose-pic .mdl-card__media {
+  background-image: url('images/vertical-pose.jpg');
+}
+
 .demo-blog .something-else .mdl-card__media {
   display: -webkit-flex;
   display: -ms-flexbox;

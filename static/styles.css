@@ -240,6 +240,9 @@ body .demo-blog {
 .demo-blog .under-the-arch .mdl-card__media {
   background-image: url('images/under-the-arch.jpg');
 }
+.demo-blog .under-the-arch-preview .mdl-card__media {
+  background-image: url('images/under-the-arch-preview.jpg');
+}
 .demo-blog .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }

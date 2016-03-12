@@ -19,5 +19,9 @@ def hello():
 def slowyoga():
 	return render_template('slowyoga.html', location='Why slow yoga?')
 
+@app.route('/anandayoga')
+def anandayoga():
+	return render_template('anandayoga.html', location='What is Ananda Yoga?')
+
 if __name__ == '__main__':
 	app.run()

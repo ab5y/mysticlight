@@ -1,0 +1,73 @@
+{% extends "template.html" %}
+{% block body %}
+<div class="demo-blog__posts mdl-grid">
+	<!-- Image card -->
+	<style>
+		.demo-card-image.mdl-card {
+			width: 100%;
+			background: url('{{ url_for('static', filename='images/under-the-arch-preview.jpg') }}') center / cover;
+		}
+		.demo-card-image > .mdl-card__title {
+			color: #fff;
+		}
+		.demo-card-image > .mdl-card__actions {
+			height: 52px;
+			padding: 16px;
+			background: rgba(0, 0, 0, 0.2);
+		}
+	</style>
+
+	<div class="demo-card-image mdl-card mdl-shadow--2dp">
+	</div>
+	<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+		<div class="mdl-card__title">
+			<h2 class="mdl-card__title-text" style="margin: auto auto;">What is Ananda Yoga?</h2>
+		</div>
+		<div class="mdl-color-text--grey-700 page">
+			<p>
+				Ananda Yoga is yoga done with awareness for higher awareness. As a true Raja Yoga approach to Hatha Yoga, Ananda Yoga does not focus on forcing the energy up the spine, but using asana, pranayama and mediation techniques to magnetically draw prana up the spine to the brain --- Safely, gently and harmoniously. 
+			</p>
+			<p>
+				Our key emphases:
+			</p>
+			<ul>
+				<li>
+					Correct alignment in order to make poses comfortable, avoid injury, facilitate the free flow of prana, and experience the deeper levels of asana practice. Keeping the spine in its natural curve is important for the energy flow to the brain.
+				</li>
+				<li>
+					Being relaxed at all times, even during the midst of effort is emphasised in Ananda Yoga practice to be able to integrate the effect of the posture. 
+				</li>
+				<li>
+					Adaptation i.e. modifying each yoga posture to fit the needs and abilities of the practitioner rather than trying to force the practitioner into some “ideal” position is a key point.
+				</li>
+				<li>
+					Conscious use of breath is very important in Ananda Yoga. It helps to deepen the stretch, relaxtion, concentration, energy awareness and over all experience.
+				</li>
+				<li>
+					The pauses in between postures are as important as the posture, it helps to create a mood, a state of consciousness. What you are within, that you will be without.
+				</li>
+				<li>
+					Each yoga posture is paired with its own affirmation, which one practices silently while in the posture. The affirmation is designed to reinforce the posture’s natural effect on one’s state of consciousness, bringing the mind actively and directly into one’s practice.
+				</li>
+			</ul>
+			<p>
+				Our typical yoga session includes:
+			</p>
+			<ul>
+				<li>
+					Pranayams (breathing techniques)
+				</li>
+				<li>
+					Stretching exercises & warm ups
+				</li>
+				<li>
+					Yoga postures (asanas)
+				</li>
+				<li>
+					Deep relaxation and meditation
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endblock %}

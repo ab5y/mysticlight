@@ -77,8 +77,8 @@ body::before {
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   .poster {
     margin: .1em auto; 
-    width: 30em;
-    height: 39em;
+    width: 20em;
+    height: 26em;
     padding: .8em;
   }
 }

@@ -13,7 +13,11 @@ app.config.from_object(__name__)
 @app.route('/')
 def hello():
 	print 'Reaches here'
-	return render_template('home.html')
+	return render_template('home.html', location='Home')
+
+@app.route('/slowyoga')
+def slowyoga():
+	return render_template('slowyoga.html', location='Why slow yoga?')
 
 if __name__ == '__main__':
 	app.run()

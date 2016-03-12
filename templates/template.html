@@ -64,9 +64,9 @@
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
       <!-- <header class="headerlogo mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll" onclick="location.href='{{ url_for('hello') }}'"></header> -->
       <main class="mdl-layout__content">
-        <!-- demo-blog__posts -->
+        <!-- demo-blog__posts onclick="location.href='{{ url_for('hello') }}'"-->
         <div class=" mdl-grid">
-          <div class="headerlogo mdl-card mdl-shadow--0dp" onclick="location.href='{{ url_for('hello') }}'">
+          <div class="headerlogo mdl-card mdl-shadow--0dp">
           </div>
         </div>
         {% block body %}{% endblock %}

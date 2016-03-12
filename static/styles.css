@@ -237,6 +237,9 @@ body .demo-blog {
 .demo-blog .under-the-chair .mdl-card__media {
   background-image: url('images/under-the-chair.jpg');
 }
+.demo-blog .under-the-arch .mdl-card__media {
+  background-image: url('images/under-the-arch.jpg');
+}
 .demo-blog .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }

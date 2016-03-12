@@ -14,7 +14,7 @@ app.config.from_object(__name__)
 def hello():
 	print 'Reaches here'
 	# return 'Hello world' 
-	return render_template('template.html')
+	return render_template('home.html')
 
 if __name__ == '__main__':
 	app.run()

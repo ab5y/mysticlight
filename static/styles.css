@@ -249,6 +249,9 @@ body .demo-blog {
 .demo-blog .on-the-fence .mdl-card__media {
   background-image: url('images/on-the-fence.jpg');
 }
+.demo-blog .t .mdl-card__media {
+  background-image: url('images/T.jpg');
+}
 .demo-blog .shopping .mdl-card__media {
   background-image: url('images/shopping.jpg');
 }
@@ -303,7 +306,7 @@ li > a {
 }
 .demo-blog .mdl-card h3.quote:before, .demo-blog .mdl-card h3.quote:after {
   display: block;
-  font-size: 3em;
+  font-size: 6em;
   margin-top: 0.5em;
 }
 .demo-blog .mdl-card h3.quote:before {
@@ -488,7 +491,7 @@ p.ex {
 }
 .demo-blog .amazing .mdl-card__title {
   /*background-color: #263238;*/
-  background-color: orange;
+  background-color: inherit;
 }
 .demo-blog .minilogo {
   width: 44px;

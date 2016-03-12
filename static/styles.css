@@ -353,7 +353,7 @@ p.ex {
 .page { 
   margin: .1em auto; 
   width: 35em;
-  padding: 4.8em;
+  padding: .8em;
 }
 .demo-blog--blogpost .comments {
   display: -webkit-flex;

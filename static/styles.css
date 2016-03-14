@@ -291,7 +291,8 @@ body .demo-blog {
           order: 0;
 }
 .demo-blog .vertical-pose-pic-preview .mdl-card__media {
-  background-image: url('images/vertical-pose-preview.jpg');
+  background-image: url('images/About.jpg');
+  height: 20em;
 }
 .demo-blog .vertical-pose-pic .mdl-card__media {
   background-image: url('images/vertical-pose.jpg');
@@ -338,16 +339,16 @@ body .demo-blog {
   background-image: url('images/road.jpg');
 }
 .demo-blog .under-the-chair .mdl-card__media {
-  background-image: url('images/arch-preview.jpg');
+  background-image: url('images/Slow Yoga.jpg');
 }
 .demo-blog .under-the-arch .mdl-card__media {
   background-image: url('images/under-the-arch.jpg');
 }
 .demo-blog .under-the-arch-preview .mdl-card__media {
-  background-image: url('images/under-the-arch-preview.jpg');
+  background-image: url('images/Anandayoga.jpg');
 }
 .demo-blog .on-the-fence .mdl-card__media {
-  background-image: url('images/on-the-fence.jpg');
+  background-image: url('images/EE.jpg');
 }
 .demo-blog .t .mdl-card__media {
   background-image: url('images/T.jpg');

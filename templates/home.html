@@ -1,8 +1,8 @@
 {% extends "template.html" %}
 {% block body %}
 <div class="demo-blog__posts mdl-grid">
-	<div class="mdl-card vertical-pose-pic-preview mdl-cell mdl-cell--8-col">
-		<div class="mdl-card__media mdl-color-text--grey-50" style="cursor:default">
+	<div class="mdl-card vertical-pose-pic-preview mdl-cell mdl-cell--8-col wrap-inline-block">
+		<div class="mdl-card__media mdl-color-text--grey-50 inner-inline-block" style="cursor:default">
 			<h3><a href="{{ url_for('about') }}">About</a></h3>
 		</div>
 		<div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
@@ -39,7 +39,7 @@
 	</div>
 	<div class="mdl-card under-the-chair mdl-cell mdl-cell--12-col">
 		<div class="mdl-card__media mdl-color-text--grey-50" style="cursor:default">
-			<h3><a href="{{ url_for('slowyoga') }}">Why slow yoga?</a></h3>
+			<h3><a href="{{ url_for('slowyoga') }}" class="titles">Why slow yoga?</a></h3>
 		</div>
 		<div class="mdl-color-text--grey-600 mdl-card__supporting-text">
 			A usual yoga practice involves going from one Asana to another. The only benefit it gives us is a good cardio workout. 
@@ -56,7 +56,7 @@
 	</div>
 	<div class="mdl-card under-the-arch-preview mdl-cell mdl-cell--12-col">
 		<div class="mdl-card__media mdl-color-text--grey-50" style="cursor:default">
-			<h3><a href="{{ url_for('anandayoga') }}">What is Ananda Yoga?</a></h3>
+			<h3><a href="{{ url_for('anandayoga') }}" class="titles">What is Ananda Yoga?</a></h3>
 		</div>
 		<div class="mdl-color-text--grey-600 mdl-card__supporting-text">
 			Ananda Yoga is yoga done with awareness for higher awareness. As a true Raja Yoga approach to Hatha Yoga, Ananda Yoga does not focus on forcing the energy up the spine, but using asana, pranayama and mediation techniques to magnetically draw prana up the spine to the brain --- Safely, gently and harmoniously. 
@@ -87,7 +87,7 @@
 	</div>
 	<div class="mdl-card on-the-fence mdl-cell mdl-cell--12-col">
 		<div class="mdl-card__media mdl-color-text--grey-50" style="cursor:default">
-			<h3><a href="{{ url_for('energization') }}">Paramhansa Yogananda's Energization Exercises</a></h3>
+			<h3><a href="{{ url_for('energization') }}" class="titles">Paramhansa Yogananda's Energization Exercises</a></h3>
 		</div>
 		<div class="mdl-color-text--grey-600 mdl-card__supporting-text">
 			"The greater the will, the greater the flow of energy."
